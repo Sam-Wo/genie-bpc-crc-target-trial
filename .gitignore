@@ -1,0 +1,43 @@
+# Raw and processed clinical data (AACR GENIE BPC data are not redistributable)
+data/
+*.rds
+*.rda
+*.RData
+*.parquet
+*.feather
+
+# Credentials, tokens, and environment files
+.env
+.env.*
+.Renviron
+.Renviron.*
+.synapseConfig
+*.pem
+*.key
+
+# R / RStudio / renv
+.Rproj.user/
+.Rhistory
+.RDataTmp
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# Quarto / rendered intermediates
+/.quarto/
+*_cache/
+*_files/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
